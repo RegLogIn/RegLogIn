@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F5F0055193CA0C60021F050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0054193CA0C60021F050 /* Foundation.framework */; };
+		3F5F0057193CA0C60021F050 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0056193CA0C60021F050 /* CoreGraphics.framework */; };
+		3F5F0059193CA0C60021F050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0058193CA0C60021F050 /* UIKit.framework */; };
+		3F5F005F193CA0C60021F050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F5F005D193CA0C60021F050 /* InfoPlist.strings */; };
+		3F5F0061193CA0C60021F050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0060193CA0C60021F050 /* main.m */; };
+		3F5F0065193CA0C60021F050 /* RLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0064193CA0C60021F050 /* RLAppDelegate.m */; };
+		3F5F0068193CA0C60021F050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5F0066193CA0C60021F050 /* Main.storyboard */; };
+		3F5F006B193CA0C60021F050 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F006A193CA0C60021F050 /* RLViewController.m */; };
+		3F5F006D193CA0C60021F050 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5F006C193CA0C60021F050 /* Images.xcassets */; };
+		3F5F0074193CA0C60021F050 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0073193CA0C60021F050 /* XCTest.framework */; };
+		3F5F0075193CA0C60021F050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0054193CA0C60021F050 /* Foundation.framework */; };
+		3F5F0076193CA0C60021F050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0058193CA0C60021F050 /* UIKit.framework */; };
+		3F5F007E193CA0C60021F050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F5F007C193CA0C60021F050 /* InfoPlist.strings */; };
+		3F5F0080193CA0C60021F050 /* RegLogInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F007F193CA0C60021F050 /* RegLogInTests.m */; };
+		3F5F008A193CA14F0021F050 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0089193CA14F0021F050 /* Parse.framework */; };
+		3F5F008C193CA1640021F050 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F008B193CA1640021F050 /* AudioToolbox.framework */; };
+		3F5F008E193CA16C0021F050 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F008D193CA16C0021F050 /* CFNetwork.framework */; };
+		3F5F0090193CA17C0021F050 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F008F193CA17C0021F050 /* CoreLocation.framework */; };
+		3F5F0092193CA1840021F050 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0091193CA1840021F050 /* libz.dylib */; };
+		3F5F0094193CA18C0021F050 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0093193CA18C0021F050 /* MobileCoreServices.framework */; };
+		3F5F0096193CA1980021F050 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0095193CA1980021F050 /* QuartzCore.framework */; };
+		3F5F0098193CA1A10021F050 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0097193CA1A10021F050 /* Security.framework */; };
+		3F5F009A193CA1E20021F050 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F0099193CA1E20021F050 /* StoreKit.framework */; };
+		3F5F009C193CA1EB0021F050 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F009B193CA1EB0021F050 /* SystemConfiguration.framework */; };
+		3F5F009F193CADE90021F050 /* RLRegistreerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F009E193CADE90021F050 /* RLRegistreerViewController.m */; };
+		3F5F00A6193CBAF30021F050 /* RLLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F00A5193CBAF30021F050 /* RLLogInViewController.m */; };
+		3F5F00B2193CCD2A0021F050 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F00AB193CCD2A0021F050 /* TPKeyboardAvoidingCollectionView.m */; };
+		3F5F00B3193CCD2A0021F050 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F00AD193CCD2A0021F050 /* TPKeyboardAvoidingScrollView.m */; };
+		3F5F00B4193CCD2A0021F050 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F00AF193CCD2A0021F050 /* TPKeyboardAvoidingTableView.m */; };
+		3F5F00B5193CCD2A0021F050 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F00B1193CCD2A0021F050 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F5F0077193CA0C60021F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F5F0049193CA0C60021F050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F5F0050193CA0C60021F050;
+			remoteInfo = RegLogIn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F5F0051193CA0C60021F050 /* RegLogIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegLogIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5F0054193CA0C60021F050 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F5F0056193CA0C60021F050 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F5F0058193CA0C60021F050 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F5F005C193CA0C60021F050 /* RegLogIn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RegLogIn-Info.plist"; sourceTree = "<group>"; };
+		3F5F005E193CA0C60021F050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F5F0060193CA0C60021F050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F5F0062193CA0C60021F050 /* RegLogIn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RegLogIn-Prefix.pch"; sourceTree = "<group>"; };
+		3F5F0063193CA0C60021F050 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F5F0064193CA0C60021F050 /* RLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLAppDelegate.m; sourceTree = "<group>"; };
+		3F5F0067193CA0C60021F050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F5F0069193CA0C60021F050 /* RLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RLViewController.h; path = RegLogIn/RLViewController.h; sourceTree = "<group>"; };
+		3F5F006A193CA0C60021F050 /* RLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RLViewController.m; path = RegLogIn/RLViewController.m; sourceTree = "<group>"; };
+		3F5F006C193CA0C60021F050 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F5F0072193CA0C60021F050 /* RegLogInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegLogInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5F0073193CA0C60021F050 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F5F007B193CA0C60021F050 /* RegLogInTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RegLogInTests-Info.plist"; sourceTree = "<group>"; };
+		3F5F007D193CA0C60021F050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F5F007F193CA0C60021F050 /* RegLogInTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegLogInTests.m; sourceTree = "<group>"; };
+		3F5F0089193CA14F0021F050 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3F5F008B193CA1640021F050 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3F5F008D193CA16C0021F050 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3F5F008F193CA17C0021F050 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F5F0091193CA1840021F050 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3F5F0093193CA18C0021F050 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3F5F0095193CA1980021F050 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F5F0097193CA1A10021F050 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3F5F0099193CA1E20021F050 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3F5F009B193CA1EB0021F050 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F5F009D193CADE90021F050 /* RLRegistreerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLRegistreerViewController.h; path = RegLogIn/RLRegistreerViewController.h; sourceTree = "<group>"; };
+		3F5F009E193CADE90021F050 /* RLRegistreerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLRegistreerViewController.m; path = RegLogIn/RLRegistreerViewController.m; sourceTree = "<group>"; };
+		3F5F00A4193CBAF30021F050 /* RLLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLLogInViewController.h; sourceTree = SOURCE_ROOT; };
+		3F5F00A5193CBAF30021F050 /* RLLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLLogInViewController.m; sourceTree = SOURCE_ROOT; };
+		3F5F00AA193CCD2A0021F050 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		3F5F00AB193CCD2A0021F050 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		3F5F00AC193CCD2A0021F050 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		3F5F00AD193CCD2A0021F050 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		3F5F00AE193CCD2A0021F050 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		3F5F00AF193CCD2A0021F050 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		3F5F00B0193CCD2A0021F050 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		3F5F00B1193CCD2A0021F050 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F5F004E193CA0C60021F050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5F009C193CA1EB0021F050 /* SystemConfiguration.framework in Frameworks */,
+				3F5F009A193CA1E20021F050 /* StoreKit.framework in Frameworks */,
+				3F5F0092193CA1840021F050 /* libz.dylib in Frameworks */,
+				3F5F0098193CA1A10021F050 /* Security.framework in Frameworks */,
+				3F5F0096193CA1980021F050 /* QuartzCore.framework in Frameworks */,
+				3F5F0094193CA18C0021F050 /* MobileCoreServices.framework in Frameworks */,
+				3F5F0090193CA17C0021F050 /* CoreLocation.framework in Frameworks */,
+				3F5F0057193CA0C60021F050 /* CoreGraphics.framework in Frameworks */,
+				3F5F008E193CA16C0021F050 /* CFNetwork.framework in Frameworks */,
+				3F5F008C193CA1640021F050 /* AudioToolbox.framework in Frameworks */,
+				3F5F0059193CA0C60021F050 /* UIKit.framework in Frameworks */,
+				3F5F008A193CA14F0021F050 /* Parse.framework in Frameworks */,
+				3F5F0055193CA0C60021F050 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5F006F193CA0C60021F050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5F0074193CA0C60021F050 /* XCTest.framework in Frameworks */,
+				3F5F0076193CA0C60021F050 /* UIKit.framework in Frameworks */,
+				3F5F0075193CA0C60021F050 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F5F0048193CA0C60021F050 = {
+			isa = PBXGroup;
+			children = (
+				3F5F00B6193CCD3F0021F050 /* TPKeyboardAvoiding */,
+				3F5F005A193CA0C60021F050 /* RegLogIn */,
+				3F5F0079193CA0C60021F050 /* RegLogInTests */,
+				3F5F0053193CA0C60021F050 /* Frameworks */,
+				3F5F0052193CA0C60021F050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F5F0052193CA0C60021F050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F0051193CA0C60021F050 /* RegLogIn.app */,
+				3F5F0072193CA0C60021F050 /* RegLogInTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F5F0053193CA0C60021F050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F0089193CA14F0021F050 /* Parse.framework */,
+				3F5F009B193CA1EB0021F050 /* SystemConfiguration.framework */,
+				3F5F0099193CA1E20021F050 /* StoreKit.framework */,
+				3F5F0097193CA1A10021F050 /* Security.framework */,
+				3F5F0095193CA1980021F050 /* QuartzCore.framework */,
+				3F5F0093193CA18C0021F050 /* MobileCoreServices.framework */,
+				3F5F0091193CA1840021F050 /* libz.dylib */,
+				3F5F008F193CA17C0021F050 /* CoreLocation.framework */,
+				3F5F008D193CA16C0021F050 /* CFNetwork.framework */,
+				3F5F008B193CA1640021F050 /* AudioToolbox.framework */,
+				3F5F0054193CA0C60021F050 /* Foundation.framework */,
+				3F5F0056193CA0C60021F050 /* CoreGraphics.framework */,
+				3F5F0058193CA0C60021F050 /* UIKit.framework */,
+				3F5F0073193CA0C60021F050 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F5F005A193CA0C60021F050 /* RegLogIn */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F0063193CA0C60021F050 /* Main.storyboard */,
+				3F5F0064193CA0C60021F050 /* RLAppDelegate.m */,
+				3F5F0066193CA0C60021F050 /* Main.storyboard */,
+				3F5F00A0193CAE8E0021F050 /* REGLOGIN */,
+				3F5F006C193CA0C60021F050 /* Images.xcassets */,
+				3F5F005B193CA0C60021F050 /* Supporting Files */,
+			);
+			path = RegLogIn;
+			sourceTree = "<group>";
+		};
+		3F5F005B193CA0C60021F050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F005C193CA0C60021F050 /* RegLogIn-Info.plist */,
+				3F5F005D193CA0C60021F050 /* InfoPlist.strings */,
+				3F5F0060193CA0C60021F050 /* main.m */,
+				3F5F0062193CA0C60021F050 /* RegLogIn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F5F0079193CA0C60021F050 /* RegLogInTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F007F193CA0C60021F050 /* RegLogInTests.m */,
+				3F5F007A193CA0C60021F050 /* Supporting Files */,
+			);
+			path = RegLogInTests;
+			sourceTree = "<group>";
+		};
+		3F5F007A193CA0C60021F050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F007B193CA0C60021F050 /* RegLogInTests-Info.plist */,
+				3F5F007C193CA0C60021F050 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F5F00A0193CAE8E0021F050 /* REGLOGIN */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F0069193CA0C60021F050 /* RLViewController.h */,
+				3F5F006A193CA0C60021F050 /* RLViewController.m */,
+				3F5F009D193CADE90021F050 /* RLRegistreerViewController.h */,
+				3F5F009E193CADE90021F050 /* RLRegistreerViewController.m */,
+				3F5F00A4193CBAF30021F050 /* RLLogInViewController.h */,
+				3F5F00A5193CBAF30021F050 /* RLLogInViewController.m */,
+			);
+			name = REGLOGIN;
+			sourceTree = "<group>";
+		};
+		3F5F00B6193CCD3F0021F050 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F00AA193CCD2A0021F050 /* TPKeyboardAvoidingCollectionView.h */,
+				3F5F00AB193CCD2A0021F050 /* TPKeyboardAvoidingCollectionView.m */,
+				3F5F00AC193CCD2A0021F050 /* TPKeyboardAvoidingScrollView.h */,
+				3F5F00AD193CCD2A0021F050 /* TPKeyboardAvoidingScrollView.m */,
+				3F5F00AE193CCD2A0021F050 /* TPKeyboardAvoidingTableView.h */,
+				3F5F00AF193CCD2A0021F050 /* TPKeyboardAvoidingTableView.m */,
+				3F5F00B0193CCD2A0021F050 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				3F5F00B1193CCD2A0021F050 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F5F0050193CA0C60021F050 /* RegLogIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5F0083193CA0C60021F050 /* Build configuration list for PBXNativeTarget "RegLogIn" */;
+			buildPhases = (
+				3F5F004D193CA0C60021F050 /* Sources */,
+				3F5F004E193CA0C60021F050 /* Frameworks */,
+				3F5F004F193CA0C60021F050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegLogIn;
+			productName = RegLogIn;
+			productReference = 3F5F0051193CA0C60021F050 /* RegLogIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F5F0071193CA0C60021F050 /* RegLogInTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5F0086193CA0C60021F050 /* Build configuration list for PBXNativeTarget "RegLogInTests" */;
+			buildPhases = (
+				3F5F006E193CA0C60021F050 /* Sources */,
+				3F5F006F193CA0C60021F050 /* Frameworks */,
+				3F5F0070193CA0C60021F050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F5F0078193CA0C60021F050 /* PBXTargetDependency */,
+			);
+			name = RegLogInTests;
+			productName = RegLogInTests;
+			productReference = 3F5F0072193CA0C60021F050 /* RegLogInTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F5F0049193CA0C60021F050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RL;
+				TargetAttributes = {
+					3F5F0071193CA0C60021F050 = {
+						TestTargetID = 3F5F0050193CA0C60021F050;
+					};
+				};
+			};
+			buildConfigurationList = 3F5F004C193CA0C60021F050 /* Build configuration list for PBXProject "RegLogIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F5F0048193CA0C60021F050;
+			productRefGroup = 3F5F0052193CA0C60021F050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F5F0050193CA0C60021F050 /* RegLogIn */,
+				3F5F0071193CA0C60021F050 /* RegLogInTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F5F004F193CA0C60021F050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5F006D193CA0C60021F050 /* Images.xcassets in Resources */,
+				3F5F005F193CA0C60021F050 /* InfoPlist.strings in Resources */,
+				3F5F0068193CA0C60021F050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5F0070193CA0C60021F050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5F007E193CA0C60021F050 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5F004D193CA0C60021F050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5F009F193CADE90021F050 /* RLRegistreerViewController.m in Sources */,
+				3F5F00B3193CCD2A0021F050 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3F5F00A6193CBAF30021F050 /* RLLogInViewController.m in Sources */,
+				3F5F00B4193CCD2A0021F050 /* TPKeyboardAvoidingTableView.m in Sources */,
+				3F5F0065193CA0C60021F050 /* RLAppDelegate.m in Sources */,
+				3F5F0061193CA0C60021F050 /* main.m in Sources */,
+				3F5F006B193CA0C60021F050 /* RLViewController.m in Sources */,
+				3F5F00B2193CCD2A0021F050 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3F5F00B5193CCD2A0021F050 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5F006E193CA0C60021F050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5F0080193CA0C60021F050 /* RegLogInTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F5F0078193CA0C60021F050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F5F0050193CA0C60021F050 /* RegLogIn */;
+			targetProxy = 3F5F0077193CA0C60021F050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F5F005D193CA0C60021F050 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5F005E193CA0C60021F050 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F5F0066193CA0C60021F050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5F0067193CA0C60021F050 /* Base */,
+			);
+			name = Main.storyboard;
+			path = RegLogIn;
+			sourceTree = SOURCE_ROOT;
+		};
+		3F5F007C193CA0C60021F050 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5F007D193CA0C60021F050 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F5F0081193CA0C60021F050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F5F0082193CA0C60021F050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F5F0084193CA0C60021F050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegLogIn/RegLogIn-Prefix.pch";
+				INFOPLIST_FILE = "RegLogIn/RegLogIn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F5F0085193CA0C60021F050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegLogIn/RegLogIn-Prefix.pch";
+				INFOPLIST_FILE = "RegLogIn/RegLogIn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F5F0087193CA0C60021F050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RegLogIn.app/RegLogIn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegLogIn/RegLogIn-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RegLogInTests/RegLogInTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F5F0088193CA0C60021F050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RegLogIn.app/RegLogIn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegLogIn/RegLogIn-Prefix.pch";
+				INFOPLIST_FILE = "RegLogInTests/RegLogInTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F5F004C193CA0C60021F050 /* Build configuration list for PBXProject "RegLogIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5F0081193CA0C60021F050 /* Debug */,
+				3F5F0082193CA0C60021F050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5F0083193CA0C60021F050 /* Build configuration list for PBXNativeTarget "RegLogIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5F0084193CA0C60021F050 /* Debug */,
+				3F5F0085193CA0C60021F050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5F0086193CA0C60021F050 /* Build configuration list for PBXNativeTarget "RegLogInTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5F0087193CA0C60021F050 /* Debug */,
+				3F5F0088193CA0C60021F050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F5F0049193CA0C60021F050 /* Project object */;
+}
